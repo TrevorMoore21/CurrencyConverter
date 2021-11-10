@@ -10,21 +10,40 @@ public class PickCurrency
 		
 		public static void getName()
 		{
+			//User's name
 			name = JOptionPane.showInputDialog("Hello, What is your name?");
 			JOptionPane.showMessageDialog(frame, "Hi " + name);
 		}
 		
 		public static void wannaPlay()
 		{
-			
+			//Would you like to play a game?
 			YoN = JOptionPane.showConfirmDialog(frame, 
-					"Would you like to convert some currency"+ name, 
+					"Would you like to convert some currency "+ name, 
 					"?", JOptionPane.YES_NO_CANCEL_OPTION,
 					JOptionPane.QUESTION_MESSAGE);
 			
 			if (YoN == JOptionPane.YES_OPTION)
 				{
-					//rest of code
+
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 				}
 			else if (YoN == JOptionPane.NO_OPTION)
 				{
